@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Activity, Database, TrendingUp, AlertTriangle } from 'lucide-react';
 
-const BACKEND_URL = "https://full-stack-api-project-vercel.vercel.app/"; 
+const BACKEND_URL = "https://full-stack-api-project-vercel.vercel.app"; 
 
 export default function Dashboard() {
   const [data, setData] = useState([]);
